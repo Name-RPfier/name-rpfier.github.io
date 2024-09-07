@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    font-family: Luckiest Guy, Helvetica,sans-serif;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+button {
+    font-family: Luckiest Guy, Helvetica,sans-serif;
+    border-radius: 50px;
+    border-style: none;
+    width: 100px;
+    height: 55px;
+    transition: all 1s ease-out;
+}
+
+input {
+    font-family: Luckiest Guy, Helvetica,sans-serif;
+    border-radius: 50px;
+    margin: 20px;
+    border-style: none;
+    width: 250px;
+    height: 35px;
+    transition: all 1s ease-out;
+}
+
+button:hover {
+    background-color: #DDDDDD;
+}
+
+input:hover {
+    background-color: #DDDDDD;
+}
